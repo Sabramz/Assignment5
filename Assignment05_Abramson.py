@@ -27,8 +27,8 @@ class BasicMathOperations:
       return num * self.factorial(num - 1)
 
   def count(self, start, end):
-    if start == end + 1:
-      return end
+    if start == end:
+      print(end)
     else:
       print(start)
       self.count(start + 1, end)
